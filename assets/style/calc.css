@@ -1,0 +1,49 @@
+body{
+	font-family: 'Roboto Mono';
+	font-size: 18px;
+}
+header{
+	text-align: right;
+	padding:5px;
+	background: Indigo;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+header #detail{
+	font-size: .8em;
+}
+header #result{
+	font-size: 2em;
+}
+header #result span{
+	float: left;
+}
+#calculator{
+	width:400px;
+	margin:auto;
+	box-shadow: 0 0 10px #ccc;
+	margin-top:10px;
+	background: none;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#keys{
+	overflow: auto;
+}
+#keys button{
+	width:25%;
+	color:#000;
+	background: none;
+	border: none;
+	padding:2em;
+	cursor: pointer;
+	float: left;
+}
+#keys button:hover{
+	background: Indigo;
+	color:#fff;
+}
+#keys button:active{
+	box-shadow: 0 0 10px #000;
+}

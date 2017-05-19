@@ -1,0 +1,26 @@
+{
+  "name": "vegetable-calculator",
+  "version": "1.0.0",
+  "description": "simple vegetable calculator with jquery",
+  "main": "calc.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mardikacom/bekraf_web_calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "I Komang Mardika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mardikacom/bekraf_web_calculator/issues"
+  },
+  "homepage": "https://github.com/mardikacom/bekraf_web_calculator#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
